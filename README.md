@@ -17,7 +17,7 @@ c. Create a simple HTML file (index.html): \
     index.html file is attached in the root directory. \
     ![Screenshot](web-server.png)
 
-<b> Step 2: Creating a Pipeline for this web-application </b>
+<b> Step 2: Creating a Pipeline for this web-application. </b>
 
 
 
