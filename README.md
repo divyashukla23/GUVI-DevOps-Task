@@ -7,9 +7,9 @@ a.  Launch an EC2 instance: \
     Connect to your EC2 instance: 
 
 b. Install a web server: \
-    Install Apache web server by running the following command: sudo yum install httpd -y \
-    Start the Apache service: <code> "sudo service httpd start. </code> \
-    Enable Apache to start on system boot: "sudo chkconfig httpd on "
+    Install Apache web server by running the following command:<code> sudo yum install httpd -y </code> \
+    Start the Apache service: <code> sudo service httpd start. </code> \
+    Enable Apache to start on system boot: <code> sudo chkconfig httpd on </code>
 
 c. Create a simple HTML file (index.html): \
     Change to the web server's root directory: cd /var/www/html \
