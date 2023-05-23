@@ -25,9 +25,11 @@ c. Create a simple HTML file (index.html): \
     Build the Docker image: <code> docker build -t hello-world-app . </code> \
     Run the Docker container using the image you just built: <code> docker run -d -p 8080:80 hello-world-app </code> \
     You can then access the web app by navigating to http://<EC2_INSTANCE_PUBLIC_IP>:8080 in your web browser. \
-    The application also runs on port 8080 after this step: \
+    The application also runs on port 8080 after this step: 
     
 ![Screenshot](Dockerised-application.png)
+
+<b> Step 3: Creating Jenkins pipeline for this application </b> \
 
 
 
