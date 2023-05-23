@@ -1,0 +1,28 @@
+pipeline {
+    agent none
+
+    stages {
+        stage('Deploy to EC2') {
+            agent {
+                label 'ec2-instance'
+            }
+            steps {
+                sh '''
+                    # SSH into the EC2 instance
+                    ssh -i /Users/divyashukla/Desktop/helloworld.pem ec2-user@3.6.87.105 << EOF
+
+                    # Change to the project directory
+                    cd /home/ec2-user
+
+                    # Build the Docker image
+                     sudo docker build -t hello-world-app .
+
+                    # Run the Docker container
+                    sudo docker run -d -p 8080:80 hello-world-app
+
+                    EOF
+                '''
+            }
+        }
+    }
+}
