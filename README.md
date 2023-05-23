@@ -29,7 +29,12 @@ c. Create a simple HTML file (index.html): \
     
 ![Screenshot](Dockerised-application.png)
 
+<b> Also i pushed this image to Dockerhub : https://hub.docker.com/r/divyashukla23/guvi_devops1 </b>
+
 <b> Step 3: Creating Jenkins pipeline for this application </b> \
+
+
+
 
 
 
