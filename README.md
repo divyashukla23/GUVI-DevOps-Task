@@ -36,7 +36,7 @@ c. Create a simple HTML file (index.html): \
 The jenkinsfile is asssosiated here, due to setup issues in my laptop i am not able to set it up but that should do teh task, moreover while integratimg the webhook i need a public dns for my jenkins server which is currently on local so i havent done that part but here is how we will do it : \
 Look for the Webhooks or Integrations section. The exact location may vary depending on the platform. \
 
-Add a new webhook by goinh to teh github repo  webhook integration settings and providing the necessary details: \
+Add a new webhook by going to the github repo  webhook integration settings and providing the necessary details: \
 Payload URL: Enter the Jenkins webhook URL. It should be in the format: http://<jenkins-url>/github-webhook/. \
 Content type: Select application/json. \
 Events: Choose the events that should trigger the webhook. Typically, you'll want to select the "Push" event to trigger on every commit. \
